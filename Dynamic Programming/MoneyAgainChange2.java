@@ -1,6 +1,5 @@
-import java.util.HashMap;
-import java.util.Scanner;
-
+import java.util.*;
+//Top-down Memoization Approach
 public class MoneyAgainChange2 {
     public static int minCoinsTopDown(int money, int coins[], HashMap<Integer, Integer> minCoins) {
         if(minCoins.get(money) != null) return minCoins.get(money);
