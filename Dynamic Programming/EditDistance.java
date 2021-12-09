@@ -28,12 +28,6 @@ public class EditDistance {
                 lcs[i][j] = -1;
             }
         }
-        // for(int i = 0; i <= n; i++){
-        //     lcs[i][0] = i;
-        // }
-        // for(int i = 0; i <= m; i++){
-        //     lcs[0][i] = i;
-        // }
         System.out.println(editDistance(s1, s2, lcs, n, m));
     
         sc.close();
